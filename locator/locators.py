@@ -6,3 +6,6 @@ class Locators:
     username = "testmorning"
     password = "test123"
     url = 'https://demoblaze.com'
+    product_name = "a[href*='product']"
+    add_to_cart_button = "a[onclick*='addToCart']"
+    cart_button = "a#cartur"
