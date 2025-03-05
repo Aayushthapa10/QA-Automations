@@ -8,7 +8,7 @@ class LoginPage:
         self.l = Locators()
         self.driver = driver
 
-    def loginPage(self,username,password):
+    def loginPage(self,username,password): #logintescases
         driver = self.driver
         l = self.l
         driver.find_element(By.ID, l.nav_login_id).click()
